@@ -4,14 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Single Page App</title>
   </head>
-  <body>
-    <div id="root"></div>
-
+  <body class="index-background">
+      <header>
+        <a href="#">About Us</a>
+      </header>
+      <main class="index-content p-absolute txt-a-c b-rad-20">
+          <section class="mb-6">
+            <img class="w-95" src="./images/komop-logo.png"/>
+          </section>
+          <section class="mb-6"> 
+            <form>
+              <input class="btn-or-input w-80 b-rad-20 mb-2" placeholder = "Email"/>
+              <input class="btn-or-input w-80 b-rad-20" placeholder = "Senha"/>
+            </form>
+          </section>
+          <section class="mb-6">
+            <button class="btn-or-input w-25 b-rad-20">Log in</button>
+            <button class="btn-or-input w-25 b-rad-20">Sign in</button>
+            <div class="mt-6">
+              <button class="btn-or-input bg-transparent">Forgot Password?</button>
+              <span> | </span>
+              <button class="btn-or-input bg-transparent">Log in with Gmail</button>
+            </div>
+          </section>
+      </main>
+      <footer>KomOp 2021</footer>
     <script type="module" src="main.js"></script>
     <script src="/__/firebase/8.7.1/firebase-app.js"></script>
     <script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
     <script src="/__/firebase/init.js"></script>
   </body>
-</html>
+</html>                   

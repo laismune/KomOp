@@ -1,0 +1,69 @@
+body {
+  margin:0;
+}
+
+.index-background{
+  background-image: url("./images/komop-background4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.index-content{
+  top:12%;
+  right: 4%;
+  width: 30%;
+  padding: 4% 0%;
+  background: rgba(255, 255, 255, 0.3);
+  border: rgba(255, 255, 255, 0.1) solid 1pt;
+}
+
+.btn-or-input{
+  padding: 2%;
+  border: white solid 0pt;
+  outline: none;
+}
+
+
+
+.p-absolute{
+  position:absolute;
+}
+
+.txt-a-c{
+  text-align: center;
+}
+
+.mb-2{
+  margin-bottom: 2%;
+}
+
+.mb-6{
+  margin-bottom: 6%;
+}
+
+.mt-6{
+  margin-top: 6%;
+}
+
+.w-25{
+  width: 25%;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.w-95{
+  width: 95%;
+}
+
+
+.b-rad-20{
+  border-radius: 20px;
+}
+
+.bg-transparent{
+  background: transparent;
+}
+
