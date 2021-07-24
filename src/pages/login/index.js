@@ -24,6 +24,8 @@ export const login = () => {
         <section class="mt-8">
           <button id="button-login" class="btn-or-input w-25 pd-2 c-21222B f-poppins b-rad-20 b-shd idx-submit-btn-ho">Log in</button>
           <button id="button-signin" class="btn-or-input w-25 mr-4 pd-2 c-21222B f-poppins b-rad-20 b-shd idx-submit-btn-ho">Sign in</button>
+          <p id="print-error-here" class="teste"> </p>
+          
           <div class="mt-6">
             <button id="button-forgotten-password" class="btn-or-input bg-transparent c-21222B f-poppins">Forgot Password?</button>
             <span> | </span>
