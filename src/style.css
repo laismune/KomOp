@@ -7,7 +7,13 @@ a{
 }
 
 .index-background{
-  background-image: url("./images/komop-background.jpg");
+  background-image: url("./images/index-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register-background{
+  background-image: url("./images/register-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -18,13 +24,23 @@ a{
   font-size: 80%;
 }
 
+.login-content{
+
+  padding: 3% 0%;
+  background: rgba(255, 255, 255, 0.3);
+  border: rgba(255, 255, 255, 0.1) solid 1pt;
+}
+
 .index-content{
   top:9%;
   right: 3%;
   width: 30%;
-  padding: 3% 0%;
-  background: rgba(255, 255, 255, 0.3);
-  border: rgba(255, 255, 255, 0.1) solid 1pt;
+}
+
+.register-content{
+  top:10%;
+  right: 3%;
+  width: 35%;
 }
 
 .index-footer{
