@@ -1,30 +1,44 @@
-body {
+body{
   margin:0;
 }
 
+a{
+  text-decoration: none;
+}
+
 .index-background{
-  background-image: url("./images/komop-background4.jpg");
+  background-image: url("./images/komop-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.index-header{
+  top:1%;
+  left: 2%; 
+  font-size: 80%;
+}
 
 .index-content{
-  top:12%;
-  right: 4%;
+  top:9%;
+  right: 3%;
   width: 30%;
-  padding: 4% 0%;
+  padding: 3% 0%;
   background: rgba(255, 255, 255, 0.3);
   border: rgba(255, 255, 255, 0.1) solid 1pt;
 }
 
-.btn-or-input{
-  padding: 2%;
-  border: white solid 0pt;
-  outline: none;
+.index-footer{
+  right: 40%;
+  bottom:1%;
+  font-size: 70%;
 }
 
-
+.btn-or-input{
+  padding: 3%;
+  border: rgba(201, 138, 138, 0) solid 1.5pt;
+  cursor: pointer;
+  outline: none;
+}
 
 .p-absolute{
   position:absolute;
@@ -34,16 +48,24 @@ body {
   text-align: center;
 }
 
+.mt-6{
+  margin-top: 6%;
+}
+
+.mt-8{
+  margin-top: 8%;
+}
+
+.mr-4{
+  margin-left: 4%;
+}
+
 .mb-2{
   margin-bottom: 2%;
 }
 
 .mb-6{
   margin-bottom: 6%;
-}
-
-.mt-6{
-  margin-top: 6%;
 }
 
 .w-25{
@@ -58,12 +80,50 @@ body {
   width: 95%;
 }
 
+.pd-2{
+  padding:2%;
+}
+
+.pd-3{
+  padding:3%;
+}
+
+.f-poppins{
+  font-family: 'Poppins', sans-serif;
+  font-size: 97%;
+}
+
+.c-21222B{
+  color: #21222B;
+}
+
+.c-21222B:hover{
+  color: #0b0b0f;
+}
 
 .b-rad-20{
   border-radius: 20px;
+}
+
+.b-shd{
+  box-shadow: 2px 2px 2px 1px rgba(201, 138, 138, 0.15);
+}
+
+.idx-submit-btn-ho:hover{
+  animation: shake 0.5s;
+  background-color: #21222B;
+  color:antiquewhite;
+}
+
+.idx-ipt-focus:focus{
+  border: #21222B solid 1.5pt;
 }
 
 .bg-transparent{
   background: transparent;
 }
 
+@keyframes shake {
+  0%  {transform: translateX(2px)  rotate(2deg)}
+  50% {transform: translateX(4px) rotate(4deg)}
+}
