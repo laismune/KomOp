@@ -1,6 +1,7 @@
 import { loginWithGoogle } from "../../lib/data.js";
 import { loginWithEmailAndPassword } from "../../lib/data.js";
 
+
 export const login = () => {
   
 
@@ -21,11 +22,12 @@ export const login = () => {
             <input type="text" password" required id="input-password" class="btn-or-input w-80 pd-3 f-poppins c-21222B b-rad-20 b-shd idx-ipt-focus" placeholder = "Password"/>
           </form>
         </section>
-        <section class="mt-8">
+        <div id="print-error-here" class="login-error"> 
+          <p class="c-none"> Print error here</p>
+        </div>
+        <section class="mt-5">
           <button id="button-login" class="btn-or-input w-25 pd-2 c-21222B f-poppins b-rad-20 b-shd idx-submit-btn-ho">Log in</button>
           <button id="button-signin" class="btn-or-input w-25 mr-4 pd-2 c-21222B f-poppins b-rad-20 b-shd idx-submit-btn-ho">Sign in</button>
-          <p id="print-error-here" class="teste"> </p>
-          
           <div class="mt-6">
             <button id="button-forgotten-password" class="btn-or-input bg-transparent c-21222B f-poppins">Forgot Password?</button>
             <span> | </span>

@@ -19,7 +19,10 @@ export const register = () => {
         <input type="text" password" required id="input-password" class="btn-or-input w-80 pd-3 f-poppins c-21222B b-rad-20 b-shd idx-ipt-focus" placeholder = "Password"/>
       </form>
     </section>
-    <section class="mt-8">
+    <div id="print-error-here" class="login-error"> 
+      <p class="c-none"> Print error here </p>
+    </div>
+    <section class="mt-5">
       <button id="button-register" class="btn-or-input w-25 pd-2 c-21222B f-poppins b-rad-20 b-shd idx-submit-btn-ho">Register</button>
     </section>
   </main>
@@ -35,7 +38,6 @@ export const register = () => {
   const password = container.querySelector("#input-password");
   
   btnRegister.addEventListener("click", () => {
-    console.log(email.value)
     registerAccount(email.value, password.value);
   });
 

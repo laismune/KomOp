@@ -32,15 +32,19 @@ a{
 }
 
 .index-content{
-  top:9%;
+  top:6%;
   right: 3%;
   width: 30%;
 }
 
 .register-content{
-  top:10%;
+  top:7%;
   right: 3%;
   width: 35%;
+}
+
+.login-error{
+  font-size: 80%;
 }
 
 .index-footer{
@@ -64,12 +68,12 @@ a{
   text-align: center;
 }
 
-.mt-6{
-  margin-top: 6%;
+.mt-5{
+  margin-top: 5%;
 }
 
-.mt-8{
-  margin-top: 8%;
+.mt-6{
+  margin-top: 6%;
 }
 
 .mr-4{
@@ -117,6 +121,14 @@ a{
   color: #0b0b0f;
 }
 
+.c-red{
+  color:red;
+}
+
+.c-none{
+  color: rgba(0, 0, 0, 0);
+}
+
 .b-rad-20{
   border-radius: 20px;
 }
@@ -144,6 +156,3 @@ a{
   50% {transform: translateX(4px) rotate(4deg)}
 }
 
-.teste{
-  background-color: red;
-}
